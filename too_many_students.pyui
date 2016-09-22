@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{49, 49}, {358, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "481C09E9-1EFC-4DE2-BE0A-E61AB10F4754",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the number of students in the class.",
+          "name" : "number_of_students_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{49, 127}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Enter # of students",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "A3108F5F-BEBD-403A-BEEB-4F185709804D",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number_of_students_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{49, 207}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_number_of_students_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "4F23D51D-42D1-49E5-8EB6-B0E0684A3515",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{49, 293}, {358, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6334ADBD-C61E-4775-A6D7-4F003E089300",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "too_many_students_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
